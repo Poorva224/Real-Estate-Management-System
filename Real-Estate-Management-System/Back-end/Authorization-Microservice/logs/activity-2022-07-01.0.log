@@ -1,0 +1,198 @@
+2022-07-01_08-12-02 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.2 on VAMSI with PID 10544 (C:\Users\Lenovo\git\MFPE\Authorization-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Authorization-Microservice)
+2022-07-01_08-12-02 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c0d229a8-6f51-3d8f-a0fe-a06cc289db07
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-01_08-12-02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-01_08-12-02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-01_08-12-02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-01_08-12-02 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3635 ms
+2022-07-01_08-12-02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-01_08-12-02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@563a71cf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49883518, org.springframework.security.web.context.SecurityContextPersistenceFilter@2897f655, org.springframework.security.web.header.HeaderWriterFilter@15687650, org.springframework.web.filter.CorsFilter@75067dfa, org.springframework.security.web.authentication.logout.LogoutFilter@6f77f4fa, cts.mfpe.authorization.configs.JwtRequestFilter@77b03661, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@317f5a9d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@704d1e08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3dda4c28, org.springframework.security.web.session.SessionManagementFilter@14487393, org.springframework.security.web.access.ExceptionTranslationFilter@17526564, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1786d5b2]
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-01_08-12-02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-01_08-12-02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2022-07-01_08-12-02 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 9.495 seconds (JVM running for 11.396)
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 51 ms
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-01_08-12-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}harsh
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-01_08-12-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found with username {}srisai
+2022-07-01_08-12-02 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-01_08-12-02 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01_08-12-02 [RMI TCP Connection(37)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-01_08-12-02 [RMI TCP Connection(37)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-01_15-06-59 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.2 on VAMSI with PID 10432 (C:\Users\Lenovo\git\MFPE\Authorization-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Authorization-Microservice)
+2022-07-01_15-06-59 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2297 ms. Found 2 JPA repository interfaces.
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c0d229a8-6f51-3d8f-a0fe-a06cc289db07
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-01_15-06-59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-01_15-06-59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-01_15-06-59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-01_15-06-59 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 50868 ms
+2022-07-01_15-06-59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-01_15-06-59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@269a023c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65f88a04, org.springframework.security.web.context.SecurityContextPersistenceFilter@6998e0d7, org.springframework.security.web.header.HeaderWriterFilter@2a999591, org.springframework.web.filter.CorsFilter@2eef9c77, org.springframework.security.web.authentication.logout.LogoutFilter@33d1e383, cts.mfpe.authorization.configs.JwtRequestFilter@3b203301, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fe067cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e48b0cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@770ed62d, org.springframework.security.web.session.SessionManagementFilter@61ec16c2, org.springframework.security.web.access.ExceptionTranslationFilter@3f493200, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ab0e342]
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-01_15-06-59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-01_15-06-59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2022-07-01_15-06-59 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 159.838 seconds (JVM running for 184.835)
+2022-07-01_15-06-59 [RMI TCP Connection(99)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-01_15-06-59 [RMI TCP Connection(99)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01_15-06-59 [RMI TCP Connection(99)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-01_15-06-59 [RMI TCP Connection(99)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

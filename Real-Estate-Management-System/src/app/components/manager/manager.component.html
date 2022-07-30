@@ -1,0 +1,175 @@
+<div class="a">Manager</div>
+
+<div class="row pt-4">
+    <div class="col-md-4 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Create Executive</h3>
+            </div>
+            <div class="card-body">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="">Name</label>
+                        <input [(ngModel)]="executive.name" placeholder="Enter Name" name="name" class="form-control rounded-0" required >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Contact Number</label>
+                        <input [(ngModel)]="executive.contactNumber" placeholder="Enter Contact Number" name="contactNumber" class="form-control rounded-0" required >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Locality</label>
+                        <input [(ngModel)]="executive.locality" placeholder="Enter Locality" name="locality" class="form-control rounded-0" required >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Email Id</label>
+                        <input [(ngModel)]="executive.emailId" placeholder="Enter EmailId" name="emailId" class="form-control rounded-0" required >
+                    </div>
+
+                    <button (click)="createExecutive()" type="button" class="btn btn-primary float-right">Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Assign Customers</h3>
+            </div>
+            <div class="card-body">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="">Executive Id</label>
+                        <input [(ngModel)]="execid" placeholder="Enter ExcetiveId" name="execid" class="form-control rounded-0" required >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Customer Id</label>
+                        <input [(ngModel)]="custid" placeholder="Enter CustomerId" name="custid" class="form-control rounded-0" required >
+                    </div>
+
+                    <button (click)="assignExecutive()" type="button" class="btn btn-primary float-right">Assign</button>
+                </form>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="col-md-4 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Get Executive Details</h3>
+            </div>
+            <div class="card-body">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="">Locality</label>
+                        <input [(ngModel)]="locality" placeholder="Enter Locality" name="locality" class="form-control rounded-0" required >
+                    </div>
+                    <button (click)="getAllExecutivesByLocality()" type="button" class="btn btn-primary float-right">Get</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<div class="card1">
+    <h3 class="md-0">Get All Executives <button (click)="getAllExecutives()" type="button" class="btn btn-primary1 float-right">Get</button></h3>
+</div>
+
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Contact Number</th>
+            <th scope="col">Locality</th>
+            <th scope="col">Email Id</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let executive of executives">
+            <td>{{executive.id}}</td>
+            <td>{{executive.name}}</td>
+            <td>{{executive.contactNumber}}</td>
+            <td>{{executive.locality}}</td>
+            <td>{{executive.emailId}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+<br>
+
+<div class="card1">
+    <h3 class="md-0">Get All Customers <button (click)="getAllCustomers()" type="button" class="btn btn-primary1 float-right">Get</button></h3>
+</div>
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Property Type</th>
+            <th scope="col">Locality</th>
+            <th scope="col">Budget</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let customer of customers">
+            <td>{{customer.id}}</td>
+            <td>{{customer.name}}</td>
+            <td>{{customer.address}}</td>
+            <td>{{customer.emailid}}</td>
+            <td>{{customer.contactNumber}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+<div class="row pt-4">
+    <div class="col-md-3 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Get Customer Details</h3>
+            </div>
+            <div class="card-body">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="">Customer Id</label>
+                        <input [(ngModel)]="custid1" placeholder="Enter CustomerId" name="custid1" class="form-control rounded-0" required >
+                    </div>
+                    <button (click)="getCustomersById()" type="button" class="btn btn-primary float-right">Get</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Customer Details</h3>
+            </div>
+            <ul class="list-group list-group-flush" *ngIf="customer1">
+              <li class="list-group-item">{{customer1.name}}</li>
+              <li class="list-group-item">{{customer1.address}}</li>
+              <li class="list-group-item">{{customer1.emailid}}</li>
+              <li class="list-group-item">{{customer1.contactNumber}}</li>
+            </ul>
+          </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+

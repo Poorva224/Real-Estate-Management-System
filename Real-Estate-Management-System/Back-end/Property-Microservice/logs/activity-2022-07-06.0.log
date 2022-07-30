@@ -1,0 +1,142 @@
+2022-07-06_09-26-16 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Starting PropertyMicroserviceApplication using Java 17.0.2 on VAMSI with PID 8344 (C:\Users\Lenovo\git\MFPE\Property-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Property-Microservice)
+2022-07-06_09-26-16 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-06_09-26-16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-06_09-26-16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-06_09-26-16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06_09-26-16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2022-07-06_09-26-16 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=36dc625e-8a22-3279-80ab-b969a6e077fc
+2022-07-06_09-26-16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-07-06_09-26-16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-07-06_09-26-16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-06_09-26-16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-06_09-26-16 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring embedded WebApplicationContext
+2022-07-06_09-26-16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3344 ms
+2022-07-06_09-26-16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-06_09-26-16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-06_09-26-16 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-06_09-26-16 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_09-26-16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-07-06_09-26-16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/property'
+2022-07-06_09-26-16 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Started PropertyMicroserviceApplication in 10.88 seconds (JVM running for 12.428)
+2022-07-06_09-26-16 [RMI TCP Connection(21)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-06_09-26-16 [RMI TCP Connection(21)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_09-26-16 [RMI TCP Connection(21)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-06_09-26-16 [RMI TCP Connection(21)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-06_09-46-46 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Starting PropertyMicroserviceApplication using Java 17.0.2 on VAMSI with PID 4420 (C:\Users\Lenovo\git\MFPE\Property-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Property-Microservice)
+2022-07-06_09-46-46 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-06_09-46-46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-06_09-46-46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-06_09-46-46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06_09-46-46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 396 ms. Found 1 JPA repository interfaces.
+2022-07-06_09-46-46 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=36dc625e-8a22-3279-80ab-b969a6e077fc
+2022-07-06_09-46-46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-07-06_09-46-46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-07-06_09-46-46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-06_09-46-46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-06_09-46-46 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring embedded WebApplicationContext
+2022-07-06_09-46-46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12432 ms
+2022-07-06_09-46-46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-06_09-46-46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-06_09-46-46 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-06_09-46-46 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_09-46-46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-07-06_09-46-46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/property'
+2022-07-06_09-46-46 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Started PropertyMicroserviceApplication in 127.483 seconds (JVM running for 137.183)
+2022-07-06_09-46-46 [http-nio-8082-exec-8] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06_09-46-46 [http-nio-8082-exec-8] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-06_09-46-46 [http-nio-8082-exec-8] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 70 ms
+2022-07-06_09-46-46 [http-nio-8082-exec-5] INFO  c.m.p.service.PropertyServiceImpl - Property Property(id=4, propertyType=villa, locality=delhi, budget=19800.0) created
+2022-07-06_09-46-46 [http-nio-8082-exec-6] INFO  c.m.p.service.PropertyServiceImpl - Properties: [Property(id=1, propertyType=villa, locality=Hyderabad, budget=1000000.0), Property(id=2, propertyType=flat, locality=Mumbai, budget=1500000.0), Property(id=3, propertyType=duplex, locality=Delhi, budget=2000000.0), Property(id=4, propertyType=villa, locality=delhi, budget=19800.0)]
+2022-07-06_09-46-46 [http-nio-8082-exec-1] INFO  c.m.p.service.PropertyServiceImpl - Properties with property type villa: [Property(id=1, propertyType=villa, locality=Hyderabad, budget=1000000.0), Property(id=4, propertyType=villa, locality=delhi, budget=19800.0)]
+2022-07-06_09-46-46 [http-nio-8082-exec-4] INFO  c.m.p.service.PropertyServiceImpl - Properties in locality delhi: [Property(id=4, propertyType=villa, locality=delhi, budget=19800.0)]
+2022-07-06_09-46-46 [http-nio-8082-exec-5] INFO  c.m.p.service.PropertyServiceImpl - Properties: [Property(id=1, propertyType=villa, locality=Hyderabad, budget=1000000.0), Property(id=2, propertyType=flat, locality=Mumbai, budget=1500000.0), Property(id=3, propertyType=duplex, locality=Delhi, budget=2000000.0), Property(id=4, propertyType=villa, locality=delhi, budget=19800.0)]
+2022-07-06_09-46-46 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_09-46-46 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-06_09-46-46 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-06_11-01-20 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Starting PropertyMicroserviceApplication using Java 17.0.2 on VAMSI with PID 4420 (C:\Users\Lenovo\git\MFPE\Property-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Property-Microservice)
+2022-07-06_11-01-20 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-06_11-01-20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06_11-01-20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 330 ms. Found 1 JPA repository interfaces.
+2022-07-06_11-01-20 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=36dc625e-8a22-3279-80ab-b969a6e077fc
+2022-07-06_11-01-20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-07-06_11-01-20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-07-06_11-01-20 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-06_11-01-20 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-06_11-01-20 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring embedded WebApplicationContext
+2022-07-06_11-01-20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 24465 ms
+2022-07-06_11-01-20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-07-06_11-01-20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-07-06_11-01-20 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-06_11-01-20 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_11-01-20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-07-06_11-01-20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/property'
+2022-07-06_11-01-20 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Started PropertyMicroserviceApplication in 39.228 seconds (JVM running for 4520.592)
+2022-07-06_11-01-20 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-07-06_11-31-08 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_11-31-08 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-07-06_11-31-08 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-07-06_11-33-03 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Starting PropertyMicroserviceApplication using Java 17.0.2 on VAMSI with PID 4420 (C:\Users\Lenovo\git\MFPE\Property-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Property-Microservice)
+2022-07-06_11-33-03 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-06_11-33-03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06_11-33-03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interfaces.
+2022-07-06_11-33-03 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=36dc625e-8a22-3279-80ab-b969a6e077fc
+2022-07-06_11-33-03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-07-06_11-33-03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-07-06_11-33-03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-06_11-33-03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-06_11-33-03 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring embedded WebApplicationContext
+2022-07-06_11-33-03 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6843 ms
+2022-07-06_11-33-03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-07-06_11-33-03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-07-06_11-33-03 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-06_11-33-03 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_11-33-03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-07-06_11-33-03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/property'
+2022-07-06_11-33-03 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Started PropertyMicroserviceApplication in 16.152 seconds (JVM running for 6401.65)
+2022-07-06_11-33-03 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-07-06_11-33-03 [Thread-14] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_11-33-03 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-07-06_11-33-03 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-07-06_11-33-19 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Starting PropertyMicroserviceApplication using Java 17.0.2 on VAMSI with PID 4420 (C:\Users\Lenovo\git\MFPE\Property-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Property-Microservice)
+2022-07-06_11-33-19 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-06_11-33-19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06_11-33-19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2022-07-06_11-33-19 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=36dc625e-8a22-3279-80ab-b969a6e077fc
+2022-07-06_11-33-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-07-06_11-33-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-07-06_11-33-19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-06_11-33-19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-06_11-33-19 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring embedded WebApplicationContext
+2022-07-06_11-33-19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2013 ms
+2022-07-06_11-33-19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-07-06_11-33-19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-07-06_11-33-19 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-06_11-33-19 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_11-33-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-07-06_11-33-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/property'
+2022-07-06_11-33-19 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Started PropertyMicroserviceApplication in 4.44 seconds (JVM running for 6407.203)
+2022-07-06_11-33-19 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-07-06_11-40-44 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Starting PropertyMicroserviceApplication using Java 17.0.2 on VAMSI with PID 5808 (C:\Users\Lenovo\git\MFPE\Property-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Property-Microservice)
+2022-07-06_11-40-44 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-06_11-40-44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-06_11-40-44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-06_11-40-44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06_11-40-44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2022-07-06_11-40-44 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=36dc625e-8a22-3279-80ab-b969a6e077fc
+2022-07-06_11-40-44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-07-06_11-40-44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-07-06_11-40-44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-06_11-40-44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-06_11-40-44 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring embedded WebApplicationContext
+2022-07-06_11-40-44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3224 ms
+2022-07-06_11-40-44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-06_11-40-44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-06_11-40-44 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-06_11-40-44 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_11-40-44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-07-06_11-40-44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/property'
+2022-07-06_11-40-44 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Started PropertyMicroserviceApplication in 8.27 seconds (JVM running for 9.601)
+2022-07-06_11-40-44 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-06_11-40-44 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06_11-40-44 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-06_11-40-44 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

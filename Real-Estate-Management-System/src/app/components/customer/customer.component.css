@@ -1,0 +1,62 @@
+body{
+    background-color: aquamarine;
+}
+table{
+background-color: whitesmoke;
+font-style: italic;
+}
+
+.card1{
+    transition: 0.3s;
+    width: 1115px;
+    background-color: #F0F0F0;
+    padding: 1px;
+    
+}
+
+.btn-primary{
+    width: 80%;
+    margin-left: 14px;
+    margin-top: 8px;
+}
+
+*,*::before, *::after{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.btn-primary1{
+        width: 58px;
+        margin-left: 14px;
+        margin-top: 8px;
+        background-color: #0d6efd;
+        color: white;
+}
+
+.container{
+    background-color: white;
+}
+
+.table .table-bordered{
+    background-color: white;
+}
+
+.table.table.table.table-bordered{
+    background-color: white;
+}
+
+.md-0{
+    margin-left: 20px;
+}
+
+div.a {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: underline;
+  }

@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-size:20cm;
+    text-align: center;
+    text-decoration-style: bold;
+    text-decoration-thickness: 10000px;
+
+   
+}
+
+
+.navbar{
+    padding: 8px;
+}
+
+
+#header{
+    width: 100%;
+    background-color: #F2F3F5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px;
+    padding-top: 10px;
+}
+
+
+

@@ -1,0 +1,194 @@
+2022-07-05_14-50-52 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Starting ManagerMicroserviceApplication using Java 17.0.2 on VAMSI with PID 9616 (C:\Users\Lenovo\git\MFPE\Manager-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Manager-Microservice)
+2022-07-05_14-50-52 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_14-50-52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-05_14-50-52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-05_14-50-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_14-50-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interfaces.
+2022-07-05_14-50-52 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b0d68178-21e3-3fed-b6a0-6fe1f6ced7ed
+2022-07-05_14-50-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-07-05_14-50-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-07-05_14-50-52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_14-50-52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_14-50-52 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring embedded WebApplicationContext
+2022-07-05_14-50-52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12608 ms
+2022-07-05_14-50-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-05_14-50-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-05_14-50-52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_14-50-52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_14-50-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-07-05_14-50-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path '/manager'
+2022-07-05_14-50-52 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Started ManagerMicroserviceApplication in 23.365 seconds (JVM running for 33.956)
+2022-07-05_14-50-52 [http-nio-8083-exec-10] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05_14-50-52 [http-nio-8083-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-05_14-50-52 [http-nio-8083-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9595 ms
+2022-07-05_14-50-52 [http-nio-8083-exec-3] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: []
+2022-07-05_14-50-52 [http-nio-8083-exec-3] INFO  c.m.m.services.ManagerServiceImpl - Exceutive Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=null) created
+2022-07-05_14-50-52 [http-nio-8083-exec-6] INFO  c.m.m.services.ManagerServiceImpl - Customer with id 1 assigned to Exceutive with id 1
+2022-07-05_14-50-52 [http-nio-8083-exec-1] INFO  c.m.m.services.ManagerServiceImpl - Exceutives with locality mumbai: []
+2022-07-05_14-50-52 [http-nio-8083-exec-9] INFO  c.m.m.services.ManagerServiceImpl - Exceutives with locality delhi: [Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)])]
+2022-07-05_14-50-52 [http-nio-8083-exec-7] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: [Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)])]
+2022-07-05_14-50-52 [http-nio-8083-exec-8] INFO  c.m.m.services.ManagerServiceImpl - Customers: [Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)]
+2022-07-05_14-50-52 [http-nio-8083-exec-9] INFO  c.m.m.services.ManagerServiceImpl - Customer: Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)
+2022-07-05_14-50-52 [http-nio-8083-exec-5] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: [Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)])]
+2022-07-05_14-50-52 [http-nio-8083-exec-7] INFO  c.m.m.services.ManagerServiceImpl - Customer: Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)
+2022-07-05_14-50-52 [http-nio-8083-exec-8] INFO  c.m.m.services.ManagerServiceImpl - Customer: Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)
+2022-07-05_14-50-52 [RMI TCP Connection(45)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_14-50-52 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_14-50-52 [RMI TCP Connection(43)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_14-50-52 [RMI TCP Connection(46)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_14-50-52 [RMI TCP Connection(44)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_14-50-52 [RMI TCP Connection(44)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-05_14-50-52 [RMI TCP Connection(44)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-05_15-52-39 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Starting ManagerMicroserviceApplication using Java 17.0.2 on VAMSI with PID 6608 (C:\Users\Lenovo\git\MFPE\Manager-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Manager-Microservice)
+2022-07-05_15-52-39 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_15-52-39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-05_15-52-39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-05_15-52-39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_15-52-39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2022-07-05_15-52-39 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b0d68178-21e3-3fed-b6a0-6fe1f6ced7ed
+2022-07-05_15-52-39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-07-05_15-52-39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-07-05_15-52-39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_15-52-39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_15-52-39 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring embedded WebApplicationContext
+2022-07-05_15-52-39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4098 ms
+2022-07-05_15-52-39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-05_15-52-39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-05_15-52-39 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_15-52-39 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_15-52-39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-07-05_15-52-39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path '/manager'
+2022-07-05_15-52-39 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Started ManagerMicroserviceApplication in 11.707 seconds (JVM running for 13.678)
+2022-07-05_15-52-39 [http-nio-8083-exec-7] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05_15-52-39 [http-nio-8083-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-05_15-52-39 [http-nio-8083-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6062 ms
+2022-07-05_15-52-39 [http-nio-8083-exec-3] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: []
+2022-07-05_15-52-39 [http-nio-8083-exec-5] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: []
+2022-07-05_15-52-39 [http-nio-8083-exec-5] INFO  c.m.m.services.ManagerServiceImpl - Exceutive Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=null) created
+2022-07-05_15-52-39 [http-nio-8083-exec-3] INFO  c.m.m.services.ManagerServiceImpl - Exceutive Executive(id=2, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=null) created
+2022-07-05_15-52-39 [http-nio-8083-exec-8] INFO  c.m.m.services.ManagerServiceImpl - Customer with id 1 assigned to Exceutive with id 1
+2022-07-05_15-52-39 [http-nio-8083-exec-9] INFO  c.m.m.services.ManagerServiceImpl - Exceutives with locality delhi: [Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)]), Executive(id=2, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[])]
+2022-07-05_15-52-39 [http-nio-8083-exec-4] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: [Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)]), Executive(id=2, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[])]
+2022-07-05_15-52-39 [http-nio-8083-exec-2] INFO  c.m.m.services.ManagerServiceImpl - Customers: [Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)]
+2022-07-05_15-52-39 [http-nio-8083-exec-5] INFO  c.m.m.services.ManagerServiceImpl - Customer: Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)
+2022-07-05_15-52-39 [http-nio-8083-exec-7] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: [Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)]), Executive(id=2, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[])]
+2022-07-05_15-52-39 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_15-52-39 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-05_15-52-39 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-05_17-24-37 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Starting ManagerMicroserviceApplication using Java 17.0.2 on VAMSI with PID 6608 (C:\Users\Lenovo\git\MFPE\Manager-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Manager-Microservice)
+2022-07-05_17-24-37 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_17-24-37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_17-24-37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2022-07-05_17-24-37 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b0d68178-21e3-3fed-b6a0-6fe1f6ced7ed
+2022-07-05_17-24-37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-07-05_17-24-37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-07-05_17-24-37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_17-24-37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_17-24-37 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring embedded WebApplicationContext
+2022-07-05_17-24-37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 29311 ms
+2022-07-05_17-24-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-07-05_17-24-37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-07-05_17-24-37 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_17-24-37 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_17-24-37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-07-05_17-24-37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path '/manager'
+2022-07-05_17-24-37 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Started ManagerMicroserviceApplication in 44.439 seconds (JVM running for 5564.051)
+2022-07-05_17-24-37 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-07-05_17-24-37 [Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_17-24-37 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-07-05_17-24-37 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-07-05_17-25-21 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Starting ManagerMicroserviceApplication using Java 17.0.2 on VAMSI with PID 6608 (C:\Users\Lenovo\git\MFPE\Manager-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Manager-Microservice)
+2022-07-05_17-25-21 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_17-25-21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_17-25-21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-07-05_17-25-21 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b0d68178-21e3-3fed-b6a0-6fe1f6ced7ed
+2022-07-05_17-25-21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-07-05_17-25-21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-07-05_17-25-21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_17-25-21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_17-25-21 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring embedded WebApplicationContext
+2022-07-05_17-25-21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 847 ms
+2022-07-05_17-25-21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-07-05_17-25-21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-07-05_17-25-21 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_17-25-21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_17-25-21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-07-05_17-25-21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path '/manager'
+2022-07-05_17-25-21 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Started ManagerMicroserviceApplication in 3.727 seconds (JVM running for 5568.301)
+2022-07-05_17-25-21 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-07-05_17-25-21 [RMI TCP Connection(86)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_17-25-21 [RMI TCP Connection(87)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_17-25-21 [RMI TCP Connection(86)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_17-25-21 [RMI TCP Connection(86)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-07-05_17-25-21 [RMI TCP Connection(86)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-07-05_18-29-52 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Starting ManagerMicroserviceApplication using Java 17.0.2 on VAMSI with PID 7072 (C:\Users\Lenovo\git\MFPE\Manager-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Manager-Microservice)
+2022-07-05_18-29-52 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 196 ms. Found 1 JPA repository interfaces.
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b0d68178-21e3-3fed-b6a0-6fe1f6ced7ed
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-07-05_18-29-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-07-05_18-29-52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_18-29-52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_18-29-52 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring embedded WebApplicationContext
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 23825 ms
+2022-07-05_18-29-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-05_18-29-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_18-29-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path '/manager'
+2022-07-05_18-29-52 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Started ManagerMicroserviceApplication in 93.767 seconds (JVM running for 157.893)
+2022-07-05_18-29-52 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05_18-29-52 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-05_18-29-52 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5393 ms
+2022-07-05_18-29-52 [http-nio-8083-exec-2] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: []
+2022-07-05_18-29-52 [http-nio-8083-exec-2] INFO  c.m.m.services.ManagerServiceImpl - Exceutive Executive(id=1, name=david, contactNumber=1234567890, locality=delhi, emailId=david@gmail.com, customers=null) created
+2022-07-05_18-29-52 [http-nio-8083-exec-10] INFO  c.m.m.services.ManagerServiceImpl - Customer with id 1 assigned to Exceutive with id 1
+2022-07-05_18-29-52 [http-nio-8083-exec-7] INFO  c.m.m.services.ManagerServiceImpl - Exceutives with locality delhi: [Executive(id=1, name=david, contactNumber=1234567890, locality=delhi, emailId=david@gmail.com, customers=[Customer(id=1, name=bill, address=delhi, emailid=bill@gmail.com, contactNumber=9876543210)])]
+2022-07-05_18-29-52 [http-nio-8083-exec-4] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: [Executive(id=1, name=david, contactNumber=1234567890, locality=delhi, emailId=david@gmail.com, customers=[Customer(id=1, name=bill, address=delhi, emailid=bill@gmail.com, contactNumber=9876543210)])]
+2022-07-05_18-29-52 [http-nio-8083-exec-9] INFO  c.m.m.services.ManagerServiceImpl - Customers: [Customer(id=1, name=bill, address=delhi, emailid=bill@gmail.com, contactNumber=9876543210)]
+2022-07-05_18-29-52 [http-nio-8083-exec-6] INFO  c.m.m.services.ManagerServiceImpl - Customer: Customer(id=1, name=bill, address=delhi, emailid=bill@gmail.com, contactNumber=9876543210)
+2022-07-05_18-29-52 [http-nio-8083-exec-5] INFO  c.m.m.services.ManagerServiceImpl - Customer: Customer(id=1, name=bill, address=delhi, emailid=bill@gmail.com, contactNumber=9876543210)
+2022-07-05_18-29-52 [http-nio-8083-exec-4] INFO  c.m.m.services.ManagerServiceImpl - Customer: Customer(id=1, name=bill, address=delhi, emailid=bill@gmail.com, contactNumber=9876543210)
+2022-07-05_18-29-52 [http-nio-8083-exec-8] INFO  c.m.m.services.ManagerServiceImpl - Executive: Executive(id=1, name=david, contactNumber=1234567890, locality=delhi, emailId=david@gmail.com, customers=[Customer(id=1, name=bill, address=delhi, emailid=bill@gmail.com, contactNumber=9876543210)])
+2022-07-05_18-29-52 [http-nio-8083-exec-6] INFO  c.m.m.services.ManagerServiceImpl - Executive: Executive(id=1, name=david, contactNumber=1234567890, locality=delhi, emailId=david@gmail.com, customers=[Customer(id=1, name=bill, address=delhi, emailid=bill@gmail.com, contactNumber=9876543210)])
+2022-07-05_18-29-52 [http-nio-8083-exec-7] INFO  c.m.m.services.ManagerServiceImpl - Customer: Customer(id=1, name=bill, address=delhi, emailid=bill@gmail.com, contactNumber=9876543210)
+2022-07-05_18-29-52 [RMI TCP Connection(87)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_18-29-52 [RMI TCP Connection(87)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_22-08-21 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Starting ManagerMicroserviceApplication using Java 17.0.2 on VAMSI with PID 7244 (C:\Users\Lenovo\git\MFPE\Manager-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Manager-Microservice)
+2022-07-05_22-08-21 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_22-08-21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-05_22-08-21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-05_22-08-21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_22-08-21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-07-05_22-08-21 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b0d68178-21e3-3fed-b6a0-6fe1f6ced7ed
+2022-07-05_22-08-21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-07-05_22-08-21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-07-05_22-08-21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_22-08-21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_22-08-21 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring embedded WebApplicationContext
+2022-07-05_22-08-21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2675 ms
+2022-07-05_22-08-21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-05_22-08-21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-05_22-08-21 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_22-08-21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_22-08-21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-07-05_22-08-21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path '/manager'
+2022-07-05_22-08-21 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Started ManagerMicroserviceApplication in 7.894 seconds (JVM running for 9.52)
+2022-07-05_22-08-21 [http-nio-8083-exec-5] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05_22-08-21 [http-nio-8083-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-05_22-08-21 [http-nio-8083-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8134 ms
+2022-07-05_22-08-21 [http-nio-8083-exec-5] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: []
+2022-07-05_22-08-21 [http-nio-8083-exec-5] INFO  c.m.m.services.ManagerServiceImpl - Exceutive Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=null) created
+2022-07-05_22-08-21 [http-nio-8083-exec-5] INFO  c.m.m.services.ManagerServiceImpl - Customer with id 1 assigned to Exceutive with id 1
+2022-07-05_22-08-21 [http-nio-8083-exec-1] INFO  c.m.m.services.ManagerServiceImpl - Exceutives with locality delhi: [Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)])]
+2022-07-05_22-08-21 [http-nio-8083-exec-9] INFO  c.m.m.services.ManagerServiceImpl - Exceutives: [Executive(id=1, name=bill, contactNumber=1234567890, locality=delhi, emailId=bill@gmail.com, customers=[Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)])]
+2022-07-05_22-08-21 [http-nio-8083-exec-4] INFO  c.m.m.services.ManagerServiceImpl - Customers: [Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)]
+2022-07-05_22-08-21 [http-nio-8083-exec-1] INFO  c.m.m.services.ManagerServiceImpl - Customer: Customer(id=1, name=david, address=mumbai, emailid=david@gmail.com, contactNumber=9876543210)
+2022-07-05_22-08-21 [RMI TCP Connection(35)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_22-08-21 [RMI TCP Connection(35)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_22-08-21 [RMI TCP Connection(35)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-05_22-08-21 [RMI TCP Connection(35)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,538 @@
+2022-07-05_10-31-49 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.2 on VAMSI with PID 9036 (C:\Users\Lenovo\git\MFPE\Authorization-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Authorization-Microservice)
+2022-07-05_10-31-49 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interfaces.
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=01491f80-41fd-3a44-9b23-dfdd2c23643d
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-05_10-31-49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-05_10-31-49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_10-31-49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_10-31-49 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10783 ms
+2022-07-05_10-31-49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-05_10-31-49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6dc47b67, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9a77af8, org.springframework.security.web.context.SecurityContextPersistenceFilter@44badb83, org.springframework.security.web.header.HeaderWriterFilter@3be9fce4, org.springframework.web.filter.CorsFilter@3e64c612, org.springframework.security.web.authentication.logout.LogoutFilter@1919a7e, cts.mfpe.authorization.configs.JwtRequestFilter@4c0151f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b3ddc5c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d6c817c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5df24f08, org.springframework.security.web.session.SessionManagementFilter@437e7b38, org.springframework.security.web.access.ExceptionTranslationFilter@8368be3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e8418db]
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-05_10-31-49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-05_10-31-49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2022-07-05_10-31-49 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 25.215 seconds (JVM running for 31.426)
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 307 ms
+2022-07-05_10-31-49 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-11] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-11] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-11] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-11] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-11] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-11] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-12] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_10-31-49 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_10-31-49 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-05_10-31-49 [RMI TCP Connection(212)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_10-31-49 [RMI TCP Connection(212)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_10-31-49 [RMI TCP Connection(212)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-05_10-31-49 [RMI TCP Connection(212)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-05_13-56-11 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.2 on VAMSI with PID 8648 (C:\Users\Lenovo\git\MFPE\Authorization-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Authorization-Microservice)
+2022-07-05_13-56-11 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 1 JPA repository interfaces.
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=01491f80-41fd-3a44-9b23-dfdd2c23643d
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-05_13-56-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-05_13-56-11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_13-56-11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_13-56-11 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 16455 ms
+2022-07-05_13-56-11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-05_13-56-11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@177ab2cf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d204e9a, org.springframework.security.web.context.SecurityContextPersistenceFilter@36c928e1, org.springframework.security.web.header.HeaderWriterFilter@55aeb96d, org.springframework.web.filter.CorsFilter@6e8a1c4f, org.springframework.security.web.authentication.logout.LogoutFilter@26a76938, cts.mfpe.authorization.configs.JwtRequestFilter@44d757c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4aab88ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a93c00d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@705ca4d0, org.springframework.security.web.session.SessionManagementFilter@6ecb914f, org.springframework.security.web.access.ExceptionTranslationFilter@4ccb28d2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@795bea55]
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-05_13-56-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-05_13-56-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2022-07-05_13-56-11 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 36.891 seconds (JVM running for 57.371)
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-05_13-56-11 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-05_13-56-11 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_13-56-11 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_13-56-11 [RMI TCP Connection(94)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_13-56-11 [RMI TCP Connection(94)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_13-56-11 [RMI TCP Connection(94)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-05_13-56-11 [RMI TCP Connection(94)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-05_15-47-02 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.2 on VAMSI with PID 4932 (C:\Users\Lenovo\git\MFPE\Authorization-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Authorization-Microservice)
+2022-07-05_15-47-02 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interfaces.
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=01491f80-41fd-3a44-9b23-dfdd2c23643d
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-05_15-47-02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-05_15-47-02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_15-47-02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_15-47-02 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7221 ms
+2022-07-05_15-47-02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-05_15-47-02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4443f171, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ab5e02, org.springframework.security.web.context.SecurityContextPersistenceFilter@2eec5010, org.springframework.security.web.header.HeaderWriterFilter@11b1c06e, org.springframework.web.filter.CorsFilter@26b415be, org.springframework.security.web.authentication.logout.LogoutFilter@6d879578, cts.mfpe.authorization.configs.JwtRequestFilter@e76c177, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71ac6601, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d4c652e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@577ed6d5, org.springframework.security.web.session.SessionManagementFilter@edff71a, org.springframework.security.web.access.ExceptionTranslationFilter@1e170b51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@449001e5]
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-05_15-47-02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-05_15-47-02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2022-07-05_15-47-02 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 18.481 seconds (JVM running for 21.814)
+2022-07-05_15-47-02 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05_15-47-02 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-05_15-47-02 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 231 ms
+2022-07-05_15-47-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-05_15-47-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-05_15-47-02 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-05_15-47-02 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-05_15-47-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_15-47-02 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_15-47-02 [RMI TCP Connection(85)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_15-47-02 [RMI TCP Connection(85)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_15-47-02 [RMI TCP Connection(85)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-05_15-47-02 [RMI TCP Connection(85)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-05_18-29-52 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.2 on VAMSI with PID 6572 (C:\Users\Lenovo\git\MFPE\Authorization-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Authorization-Microservice)
+2022-07-05_18-29-52 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 219 ms. Found 1 JPA repository interfaces.
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=01491f80-41fd-3a44-9b23-dfdd2c23643d
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-05_18-29-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-05_18-29-52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_18-29-52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_18-29-52 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 23889 ms
+2022-07-05_18-29-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-05_18-29-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1900310c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3dc8082a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4845f247, org.springframework.security.web.header.HeaderWriterFilter@408a6eb, org.springframework.web.filter.CorsFilter@6bcc158f, org.springframework.security.web.authentication.logout.LogoutFilter@276423bf, cts.mfpe.authorization.configs.JwtRequestFilter@66a0caec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@260eb61, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c6b82c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d74eebb, org.springframework.security.web.session.SessionManagementFilter@43de3886, org.springframework.security.web.access.ExceptionTranslationFilter@3b42fe29, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@873d2d6]
+2022-07-05_18-29-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-05_18-29-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2022-07-05_18-29-52 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 92.655 seconds (JVM running for 158.81)
+2022-07-05_18-29-52 [http-nio-8084-exec-2] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05_18-29-52 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-05_18-29-52 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 36 ms
+2022-07-05_18-29-52 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-05_18-29-52 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_18-29-52 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_18-29-52 [RMI TCP Connection(85)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_18-29-52 [RMI TCP Connection(85)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_18-29-52 [RMI TCP Connection(85)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-05_18-29-52 [RMI TCP Connection(85)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-05_22-07-34 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.2 on VAMSI with PID 6224 (C:\Users\Lenovo\git\MFPE\Authorization-Microservice\target\classes started by Lenovo in C:\Users\Lenovo\git\MFPE\Authorization-Microservice)
+2022-07-05_22-07-34 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interfaces.
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=01491f80-41fd-3a44-9b23-dfdd2c23643d
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-05_22-07-34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-05_22-07-34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-05_22-07-34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-05_22-07-34 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7148 ms
+2022-07-05_22-07-34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-05_22-07-34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7f78f94b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34260be7, org.springframework.security.web.context.SecurityContextPersistenceFilter@197a1164, org.springframework.security.web.header.HeaderWriterFilter@7e89904c, org.springframework.web.filter.CorsFilter@5a6500ca, org.springframework.security.web.authentication.logout.LogoutFilter@683fa360, cts.mfpe.authorization.configs.JwtRequestFilter@4c0151f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c201f65, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6730b5be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17724730, org.springframework.security.web.session.SessionManagementFilter@4ae9af2c, org.springframework.security.web.access.ExceptionTranslationFilter@739f534, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@95e3db7]
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-05_22-07-34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-05_22-07-34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2022-07-05_22-07-34 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 20.631 seconds (JVM running for 22.938)
+2022-07-05_22-07-34 [http-nio-8084-exec-10] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-05_22-07-34 [http-nio-8084-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-05_22-07-34 [http-nio-8084-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 41 ms
+2022-07-05_22-07-34 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-05_22-07-34 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-05_22-07-34 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-05_22-07-34 [RMI TCP Connection(40)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-07-05_22-07-34 [RMI TCP Connection(40)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-05_22-07-34 [RMI TCP Connection(40)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-05_22-07-34 [RMI TCP Connection(40)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

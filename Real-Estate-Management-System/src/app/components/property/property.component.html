@@ -1,0 +1,94 @@
+<div class="a">Property</div>
+<div class="row pt-4">
+    <div class="col-md-3 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Create Property</h3>
+            </div>
+            <div class="card-body">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="">Property Type</label>
+                        <input [(ngModel)]="property.propertyType" placeholder="Enter Property Type" name="propertyType" class="form-control rounded-0" required >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Locality</label>
+                        <input [(ngModel)]="property.locality" placeholder="Enter Locality" name="locality" class="form-control rounded-0" required >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Budget</label>
+                        <input [(ngModel)]="property.budget" placeholder="Enter Budget" name="budget" class="form-control rounded-0" required >
+                    </div>
+
+                    <button (click)="createProperty()" type="button" class="btn btn-primary float-right">Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Get Properties By Type</h3>
+            </div>
+            <div class="card-body">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="">Property Type</label>
+                        <input [(ngModel)]="propertyType" placeholder="Enter Property Type" name="propertyType" class="form-control rounded-0" required >
+                    </div>
+                    <button (click)="getAllPropertiesByType()" type="button" class="btn btn-primary float-right">Get</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Get Properties By Locality</h3>
+            </div>
+            <div class="card-body">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="">Locality</label>
+                        <input [(ngModel)]="locality" placeholder="Enter Locality" name="locality" class="form-control rounded-0" required >
+                    </div>
+                    <button (click)="getAllPropertiesByLocality()" type="button" class="btn btn-primary float-right">Get</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div class="card1">
+    <h3 class="md-0">Get All Properties <button (click)="getAllProperties()" type="button" class="btn btn-primary1 float-right">Get</button></h3>
+</div>
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Property Type</th>
+            <th scope="col">Locality</th>
+            <th scope="col">Budget</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let property of properties">
+            <td>{{property.id}}</td>
+            <td>{{property.propertyType}}</td>
+            <td>{{property.locality}}</td>
+            <td>{{property.budget}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+<div class="container">
+    <router-outlet></router-outlet>
+  </div>

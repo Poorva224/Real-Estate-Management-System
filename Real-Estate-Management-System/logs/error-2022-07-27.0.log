@@ -1,0 +1,16 @@
+2022-07-27_00-02-56 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8084 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8084 or configure this application to listen on another port.
+
+2022-07-27_15-36-46 [http-nio-8081-exec-8] ERROR c.m.c.e.GlobalExceptionHandler - No value present
+2022-07-27_15-36-46 [http-nio-8081-exec-2] ERROR c.m.c.e.GlobalExceptionHandler - No value present

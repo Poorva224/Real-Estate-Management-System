@@ -1,0 +1,385 @@
+2022-07-27_00-01-28 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 16720 (F:\MFPE-main\Authorization-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_00-01-28 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interfaces.
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=611a2cff-8a9a-3567-bd12-95978ac3eb1f
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-27_00-01-28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-27_00-01-28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_00-01-28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_00-01-28 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4775 ms
+2022-07-27_00-01-28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_00-01-28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7aa3b295, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b320881, org.springframework.security.web.context.SecurityContextPersistenceFilter@660de3ec, org.springframework.security.web.header.HeaderWriterFilter@1da90ada, org.springframework.web.filter.CorsFilter@267d7cb3, org.springframework.security.web.authentication.logout.LogoutFilter@12af6f6, cts.mfpe.authorization.configs.JwtRequestFilter@2044a818, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@532b7fd9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71e75631, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e3b7d38, org.springframework.security.web.session.SessionManagementFilter@14a78510, org.springframework.security.web.access.ExceptionTranslationFilter@c290164, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@669bfb5d]
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-27_00-01-28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-27_00-01-28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2022-07-27_00-01-28 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 12.145 seconds (JVM running for 14.489)
+2022-07-27_00-02-05 [restartedMain] INFO  c.m.c.CustomerMicroserviceApplication - Starting CustomerMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 1032 (F:\MFPE-main\Customer-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_00-02-05 [restartedMain] INFO  c.m.c.CustomerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_00-02-05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_00-02-05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_00-02-05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_00-02-05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 129 ms. Found 2 JPA repository interfaces.
+2022-07-27_00-02-05 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=558b60dc-0cac-3912-b37c-141b6d749a9c
+2022-07-27_00-02-10 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Starting ManagerMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 7708 (F:\MFPE-main\Manager-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_00-02-10 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_00-02-10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_00-02-10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_00-02-14 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Starting PropertyMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 17188 (F:\MFPE-main\Property-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_00-02-14 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_00-02-14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_00-02-14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_00-02-05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-07-27_00-02-05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-07-27_00-02-05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_00-02-05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_00-02-05 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/customer] - Initializing Spring embedded WebApplicationContext
+2022-07-27_00-02-05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10175 ms
+2022-07-27_00-02-05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_00-02-10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_00-02-10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 209 ms. Found 1 JPA repository interfaces.
+2022-07-27_00-02-05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_00-02-05 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_00-02-10 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5417238f-4c56-3819-a305-44c7140846bd
+2022-07-27_00-02-14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_00-02-14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 185 ms. Found 1 JPA repository interfaces.
+2022-07-27_00-02-10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-07-27_00-02-10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-07-27_00-02-10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_00-02-10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_00-02-14 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e49e130d-0632-3fb7-af4c-b7518589edfe
+2022-07-27_00-02-10 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring embedded WebApplicationContext
+2022-07-27_00-02-10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10058 ms
+2022-07-27_00-02-10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_00-02-10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_00-02-10 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_00-02-14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-07-27_00-02-14 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-07-27_00-02-14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_00-02-14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_00-02-05 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_00-02-14 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring embedded WebApplicationContext
+2022-07-27_00-02-14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10115 ms
+2022-07-27_00-02-14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_00-02-14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_00-02-14 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_00-02-10 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_00-02-05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-07-27_00-02-05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/customer'
+2022-07-27_00-02-14 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_00-02-05 [restartedMain] INFO  c.m.c.CustomerMicroserviceApplication - Started CustomerMicroserviceApplication in 30.904 seconds (JVM running for 32.973)
+2022-07-27_00-02-10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-07-27_00-02-10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path '/manager'
+2022-07-27_00-02-10 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Started ManagerMicroserviceApplication in 30.879 seconds (JVM running for 33.894)
+2022-07-27_00-02-14 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-07-27_00-02-14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/property'
+2022-07-27_00-02-14 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Started PropertyMicroserviceApplication in 29.088 seconds (JVM running for 32.403)
+2022-07-27_00-02-56 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 12164 (F:\MFPE-main\Authorization-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_00-02-56 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=611a2cff-8a9a-3567-bd12-95978ac3eb1f
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-27_00-02-56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-27_00-02-56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_00-02-56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_00-02-56 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4021 ms
+2022-07-27_00-02-56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_00-02-56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4dd05f8e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a295beb, org.springframework.security.web.context.SecurityContextPersistenceFilter@599d1159, org.springframework.security.web.header.HeaderWriterFilter@624dd150, org.springframework.web.filter.CorsFilter@495a7e0c, org.springframework.security.web.authentication.logout.LogoutFilter@71c10012, cts.mfpe.authorization.configs.JwtRequestFilter@5c678d6b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d8f448f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fb6ac74, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24dff5ca, org.springframework.security.web.session.SessionManagementFilter@13f7e718, org.springframework.security.web.access.ExceptionTranslationFilter@2eb4f1c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65653847]
+2022-07-27_00-02-56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_00-02-56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-27_00-02-56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-27_00-02-56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8084"]
+2022-07-27_00-02-56 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-07-27_00-02-56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8084"]
+2022-07-27_00-02-56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8084"]
+2022-07-27_00-02-56 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-27_00-03-41 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 4152 (F:\MFPE-main\Authorization-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_00-03-41 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interfaces.
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=611a2cff-8a9a-3567-bd12-95978ac3eb1f
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-27_00-03-41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-27_00-03-41 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_00-03-41 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_00-03-41 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3815 ms
+2022-07-27_00-03-41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_00-03-41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4cd2155d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17eab08d, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ebd5a4a, org.springframework.security.web.header.HeaderWriterFilter@4451b805, org.springframework.web.filter.CorsFilter@ae0cb4b, org.springframework.security.web.authentication.logout.LogoutFilter@33a9b45f, cts.mfpe.authorization.configs.JwtRequestFilter@6b495024, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fe7d20b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23bb2914, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@299f8842, org.springframework.security.web.session.SessionManagementFilter@324d038c, org.springframework.security.web.access.ExceptionTranslationFilter@61acadd4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d1d076]
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-27_00-03-41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-27_00-03-41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2022-07-27_00-03-41 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 10.337 seconds (JVM running for 11.676)
+2022-07-27_00-04-07 [restartedMain] INFO  c.m.c.CustomerMicroserviceApplication - Starting CustomerMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 18148 (F:\MFPE-main\Customer-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_00-04-07 [restartedMain] INFO  c.m.c.CustomerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_00-04-07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_00-04-07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_00-04-10 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Starting ManagerMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 9460 (F:\MFPE-main\Manager-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_00-04-10 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_00-04-10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_00-04-10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_00-04-13 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Starting PropertyMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 15080 (F:\MFPE-main\Property-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_00-04-13 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_00-04-13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_00-04-13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_00-04-10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_00-04-10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 146 ms. Found 1 JPA repository interfaces.
+2022-07-27_00-04-07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_00-04-07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 293 ms. Found 2 JPA repository interfaces.
+2022-07-27_00-04-10 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5417238f-4c56-3819-a305-44c7140846bd
+2022-07-27_00-04-07 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=558b60dc-0cac-3912-b37c-141b6d749a9c
+2022-07-27_00-04-13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_00-04-13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interfaces.
+2022-07-27_00-04-10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-07-27_00-04-10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-07-27_00-04-10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_00-04-10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_00-04-10 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring embedded WebApplicationContext
+2022-07-27_00-04-10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7821 ms
+2022-07-27_00-04-10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_00-04-13 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e49e130d-0632-3fb7-af4c-b7518589edfe
+2022-07-27_00-04-10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_00-04-10 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_00-04-13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-07-27_00-04-13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-07-27_00-04-13 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_00-04-13 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_00-04-13 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring embedded WebApplicationContext
+2022-07-27_00-04-13 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10603 ms
+2022-07-27_00-04-13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_00-04-07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-07-27_00-04-07 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-07-27_00-04-07 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_00-04-07 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_00-04-07 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/customer] - Initializing Spring embedded WebApplicationContext
+2022-07-27_00-04-07 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 15820 ms
+2022-07-27_00-04-13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_00-04-13 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_00-04-07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_00-04-10 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_00-04-07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_00-04-07 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_00-04-13 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_00-04-10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-07-27_00-04-10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path '/manager'
+2022-07-27_00-04-10 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Started ManagerMicroserviceApplication in 27.148 seconds (JVM running for 29.715)
+2022-07-27_00-04-13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-07-27_00-04-13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/property'
+2022-07-27_00-04-07 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_00-04-13 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Started PropertyMicroserviceApplication in 26.686 seconds (JVM running for 29.852)
+2022-07-27_00-04-07 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-07-27_00-04-07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/customer'
+2022-07-27_00-04-07 [restartedMain] INFO  c.m.c.CustomerMicroserviceApplication - Started CustomerMicroserviceApplication in 34.708 seconds (JVM running for 36.666)
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2022-07-27_00-03-41 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-27_00-03-41 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-04-07 [http-nio-8081-exec-3] INFO  o.a.c.c.C.[.[localhost].[/customer] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27_00-04-07 [http-nio-8081-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-27_00-04-07 [http-nio-8081-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2022-07-27_00-03-41 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-04-07 [http-nio-8081-exec-1] INFO  c.m.c.services.CustomerServiceImpl - Customers: []
+2022-07-27_00-03-41 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-04-07 [http-nio-8081-exec-7] INFO  c.m.c.services.CustomerServiceImpl - Customers: []
+2022-07-27_00-04-07 [http-nio-8081-exec-7] INFO  c.m.c.services.CustomerServiceImpl - Customer Customer(id=1, name=ssssss, address=ssss, emailid=s@gmail.com, contactNumber=123456789, requirements=null) created
+2022-07-27_00-03-41 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-04-07 [http-nio-8081-exec-5] INFO  c.m.c.services.CustomerServiceImpl - Customers: [Customer(id=1, name=ssssss, address=ssss, emailid=s@gmail.com, contactNumber=123456789, requirements=[])]
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-27_00-03-41 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-03-41 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_00-03-41 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_00-04-07 [http-nio-8081-exec-2] INFO  c.m.c.services.CustomerServiceImpl - Customers: [Customer(id=1, name=ssssss, address=ssss, emailid=s@gmail.com, contactNumber=123456789, requirements=[])]
+2022-07-27_15-36-46 [restartedMain] INFO  c.m.c.CustomerMicroserviceApplication - Starting CustomerMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 17588 (F:\MFPE-main\Customer-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_15-36-46 [restartedMain] INFO  c.m.c.CustomerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_15-36-47 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Starting PropertyMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 18336 (F:\MFPE-main\Property-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_15-36-47 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 3924 (F:\MFPE-main\Authorization-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_15-36-47 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_15-36-47 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_15-36-47 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Starting ManagerMicroserviceApplication using Java 17.0.3 on LAPTOP-QHPNOEOI with PID 9688 (F:\MFPE-main\Manager-Microservice\target\classes started by saket in F:\MFPE-main)
+2022-07-27_15-36-47 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 140 ms. Found 2 JPA repository interfaces.
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=558b60dc-0cac-3912-b37c-141b6d749a9c
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-07-27_15-36-46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-07-27_15-36-46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_15-36-46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_15-36-46 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/customer] - Initializing Spring embedded WebApplicationContext
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8369 ms
+2022-07-27_15-36-46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_15-36-46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 769 ms. Found 1 JPA repository interfaces.
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 285 ms. Found 1 JPA repository interfaces.
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 402 ms. Found 1 JPA repository interfaces.
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e49e130d-0632-3fb7-af4c-b7518589edfe
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5417238f-4c56-3819-a305-44c7140846bd
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=611a2cff-8a9a-3567-bd12-95978ac3eb1f
+2022-07-27_15-36-46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-07-27_15-36-46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/customer'
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring embedded WebApplicationContext
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 21100 ms
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_15-36-47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/manager] - Initializing Spring embedded WebApplicationContext
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 20906 ms
+2022-07-27_15-36-47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 22467 ms
+2022-07-27_15-36-47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_15-36-47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_15-36-47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_15-36-46 [restartedMain] INFO  c.m.c.CustomerMicroserviceApplication - Started CustomerMicroserviceApplication in 31.707 seconds (JVM running for 35.648)
+2022-07-27_15-36-47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f667f25, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@133ccf77, org.springframework.security.web.context.SecurityContextPersistenceFilter@faf866c, org.springframework.security.web.header.HeaderWriterFilter@2b458533, org.springframework.web.filter.CorsFilter@66d6843e, org.springframework.security.web.authentication.logout.LogoutFilter@978c320, cts.mfpe.authorization.configs.JwtRequestFilter@7dd8dc6d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f2acc28, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53b88a1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b515b22, org.springframework.security.web.session.SessionManagementFilter@768a8fa0, org.springframework.security.web.access.ExceptionTranslationFilter@5106288c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ef8a5f6]
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '/property'
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path '/manager'
+2022-07-27_15-36-47 [restartedMain] INFO  c.m.p.PropertyMicroserviceApplication - Started PropertyMicroserviceApplication in 50.442 seconds (JVM running for 54.134)
+2022-07-27_15-36-47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2022-07-27_15-36-47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/auth'
+2022-07-27_15-36-47 [restartedMain] INFO  c.m.m.ManagerMicroserviceApplication - Started ManagerMicroserviceApplication in 51.01 seconds (JVM running for 55.022)
+2022-07-27_15-36-47 [restartedMain] INFO  c.m.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 51.233 seconds (JVM running for 54.992)
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2022-07-27_15-36-47 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-27_15-36-47 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully saved!
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-46 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[localhost].[/customer] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27_15-36-46 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-27_15-36-46 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2022-07-27_15-36-47 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-5] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-46 [http-nio-8081-exec-2] INFO  c.m.c.services.CustomerServiceImpl - Customers: []
+2022-07-27_15-36-47 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-6] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-46 [http-nio-8081-exec-5] INFO  c.m.c.services.CustomerServiceImpl - Customers: []
+2022-07-27_15-36-47 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-3] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-46 [http-nio-8081-exec-10] INFO  c.m.c.services.CustomerServiceImpl - Customers: []
+2022-07-27_15-36-46 [http-nio-8081-exec-10] INFO  c.m.c.services.CustomerServiceImpl - Customer Customer(id=1, name=Saket Kumar Shrivasta, address=C-137,PURVAJ DHAM SARVDHARAM C-SECTOR KOLAR ROAD, emailid=saket.shrivastava1403@gmail.com, contactNumber=7723818079, requirements=null) created
+2022-07-27_15-36-47 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-7] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-46 [http-nio-8081-exec-3] INFO  c.m.c.services.CustomerServiceImpl - Customers: [Customer(id=1, name=Saket Kumar Shrivasta, address=C-137,PURVAJ DHAM SARVDHARAM C-SECTOR KOLAR ROAD, emailid=saket.shrivastava1403@gmail.com, contactNumber=7723818079, requirements=[])]
+2022-07-27_15-36-47 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-10] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-9] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-8] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-46 [http-nio-8081-exec-6] INFO  c.m.c.services.CustomerServiceImpl - Requirements: [Requirement(id=1, propertyType=villa, locality=Hyderabad, budget=1000000.0), Requirement(id=2, propertyType=flat, locality=Mumbai, budget=1500000.0), Requirement(id=3, propertyType=duplex, locality=Delhi, budget=2000000.0)]
+2022-07-27_15-36-47 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-4] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-46 [http-nio-8081-exec-3] INFO  c.m.c.services.CustomerServiceImpl - Requirement with id 3 assigned to customer with id 1
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-1] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[localhost].[/property] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27_15-36-47 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-27_15-36-47 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2022-07-27_15-36-47 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - User found
+2022-07-27_15-36-47 [http-nio-8084-exec-2] INFO  c.m.a.services.JwtUserDetailsService - user successfully located
+2022-07-27_15-36-47 [http-nio-8082-exec-1] INFO  c.m.p.service.PropertyServiceImpl - Properties: [Property(id=1, propertyType=villa, locality=Hyderabad, budget=1000000.0), Property(id=2, propertyType=flat, locality=Mumbai, budget=1500000.0), Property(id=3, propertyType=duplex, locality=Delhi, budget=2000000.0)]
+2022-07-27_15-36-46 [http-nio-8081-exec-8] INFO  c.m.c.services.CustomerServiceImpl - Properties: [Property(id=1, propertyType=villa, locality=Hyderabad, budget=1000000.0), Property(id=2, propertyType=flat, locality=Mumbai, budget=1500000.0), Property(id=3, propertyType=duplex, locality=Delhi, budget=2000000.0)]

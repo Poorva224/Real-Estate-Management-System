@@ -1,0 +1,45 @@
+2022-07-28_22-30-35 [http-nio-8084-exec-8] ERROR c.m.a.e.GlobalExceptionHandler - User with user name lll already exists
+2022-07-28_22-30-35 [http-nio-8084-exec-2] ERROR c.m.a.e.GlobalExceptionHandler - query did not return a unique result: 6; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 6
+2022-07-29_09-57-52 [http-nio-8084-exec-1] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_09-57-52 [http-nio-8084-exec-2] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_09-57-52 [http-nio-8084-exec-10] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_09-57-52 [http-nio-8084-exec-1] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_09-57-52 [http-nio-8084-exec-2] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_09-57-52 [http-nio-8081-exec-3] ERROR c.m.c.e.GlobalExceptionHandler - Customer already exists!
+2022-07-29_09-57-52 [http-nio-8084-exec-1] ERROR c.m.a.e.GlobalExceptionHandler - User with user name 2 already exists
+2022-07-29_09-57-52 [http-nio-8084-exec-4] ERROR c.m.a.e.GlobalExceptionHandler - User with user name 111 already exists
+2022-07-29_09-57-52 [http-nio-8084-exec-5] ERROR c.m.a.e.GlobalExceptionHandler - User with user name 1111 already exists
+2022-07-29_09-57-52 [http-nio-8084-exec-10] ERROR c.m.a.e.GlobalExceptionHandler - User with user name 4 already exists
+2022-07-29_09-57-52 [http-nio-8084-exec-1] ERROR c.m.a.e.GlobalExceptionHandler - User with user name 6 already exists
+2022-07-29_09-57-52 [http-nio-8084-exec-4] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_09-57-52 [http-nio-8084-exec-5] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_09-57-52 [http-nio-8084-exec-5] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_09-57-52 [http-nio-8081-exec-4] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "CUSTOMER" not found (this database is empty); SQL statement:
+select customer0_.id as id1_0_, customer0_.address as address2_0_, customer0_.contact_number as contact_3_0_, customer0_.emailid as emailid4_0_, customer0_.name as name5_0_ from customer customer0_ [42104-214]
+2022-07-29_09-57-52 [http-nio-8081-exec-4] ERROR c.m.c.e.GlobalExceptionHandler - could not prepare statement; SQL [select customer0_.id as id1_0_, customer0_.address as address2_0_, customer0_.contact_number as contact_3_0_, customer0_.emailid as emailid4_0_, customer0_.name as name5_0_ from customer customer0_]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+2022-07-29_09-57-52 [http-nio-8081-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "REQUIREMENT" not found (this database is empty); SQL statement:
+select requiremen0_.id as id1_2_, requiremen0_.budget as budget2_2_, requiremen0_.locality as locality3_2_, requiremen0_.property_type as property4_2_ from requirement requiremen0_ [42104-214]
+2022-07-29_09-57-52 [http-nio-8081-exec-6] ERROR c.m.c.e.GlobalExceptionHandler - could not prepare statement; SQL [select requiremen0_.id as id1_2_, requiremen0_.budget as budget2_2_, requiremen0_.locality as locality3_2_, requiremen0_.property_type as property4_2_ from requirement requiremen0_]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+2022-07-29_09-57-52 [http-nio-8082-exec-4] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table "PROPERTY" not found (this database is empty); SQL statement:
+select property0_.id as id1_0_, property0_.budget as budget2_0_, property0_.locality as locality3_0_, property0_.property_type as property4_0_ from property property0_ [42104-214]
+2022-07-29_09-57-52 [http-nio-8082-exec-4] ERROR c.m.p.e.GlobalExceptionHandler - could not prepare statement; SQL [select property0_.id as id1_0_, property0_.budget as budget2_0_, property0_.locality as locality3_0_, property0_.property_type as property4_0_ from property property0_]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+2022-07-29_09-57-52 [http-nio-8081-exec-8] ERROR c.m.c.e.GlobalExceptionHandler - [500] during [GET] to [http://localhost:8082/property/getAllProperties] [PropertyServiceClient#getAllProperties(String)]: [{"timeStamp":"29-07-2022 03:26:05","message":"could not prepare statement; SQL [select property0_.id as id1_0_, property0_.budget as budget2_0_, property0_.locality as locality3_0_, property0_.property_type as property4_0_ from property property0_]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement"}]
+2022-07-29_09-57-52 [http-nio-8084-exec-5] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_09-57-52 [http-nio-8084-exec-6] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_17-38-11 [http-nio-8083-exec-9] ERROR c.m.m.e.GlobalExceptionHandler - Executives in locality 1 not found
+2022-07-29_17-38-09 [http-nio-8082-exec-10] ERROR c.m.p.e.GlobalExceptionHandler - JSON parse error: Cannot deserialize value of type `double` from String "10,000": not a valid `double` value (as String to convert); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `double` from String "10,000": not a valid `double` value (as String to convert)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 55] (through reference chain: cts.mfpe.property.entities.Property["budget"])
+2022-07-29_17-38-09 [http-nio-8082-exec-9] ERROR c.m.p.e.GlobalExceptionHandler - Properties of property type Apartement Not Found!
+2022-07-29_17-38-09 [http-nio-8082-exec-1] ERROR c.m.p.e.GlobalExceptionHandler - Properties of property type Apartement Not Found!
+2022-07-29_17-38-09 [http-nio-8082-exec-4] ERROR c.m.p.e.GlobalExceptionHandler - Properties of property type Apartement Not Found!
+2022-07-29_17-38-09 [http-nio-8082-exec-2] ERROR c.m.p.e.GlobalExceptionHandler - Properties of property type Apartement Not Found!
+2022-07-29_17-38-09 [http-nio-8082-exec-5] ERROR c.m.p.e.GlobalExceptionHandler - Properties of property type Apartement Not Found!
+2022-07-29_17-38-09 [http-nio-8082-exec-3] ERROR c.m.p.e.GlobalExceptionHandler - Properties of property type Apartement Not Found!
+2022-07-29_17-38-09 [http-nio-8082-exec-7] ERROR c.m.p.e.GlobalExceptionHandler - Properties of property type Apartement Not Found!
+2022-07-29_17-38-09 [http-nio-8082-exec-10] ERROR c.m.p.e.GlobalExceptionHandler - Properties of property type Apartement Not Found!
+2022-07-29_17-38-11 [http-nio-8084-exec-4] ERROR c.m.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-07-29_17-38-11 [http-nio-8083-exec-6] ERROR c.m.m.e.GlobalExceptionHandler - Executives in locality Mumabi not found
+2022-07-29_19-09-27 [http-nio-8081-exec-1] ERROR c.m.c.e.GlobalExceptionHandler - Customer Not Found!
+2022-07-29_19-09-30 [http-nio-8083-exec-2] ERROR c.m.m.e.GlobalExceptionHandler - [404] during [GET] to [http://localhost:8081/customer/getCustomerDetails/1] [CustomerServiceClient#getCustomerDetails(int,String)]: [{"timeStamp":"29-07-2022 07:23:37","message":"Customer Not Found!"}]
+2022-07-29_19-09-27 [http-nio-8081-exec-5] ERROR c.m.c.e.GlobalExceptionHandler - Customer Not Found!
+2022-07-29_19-09-30 [http-nio-8083-exec-5] ERROR c.m.m.e.GlobalExceptionHandler - [404] during [GET] to [http://localhost:8081/customer/getCustomerDetails/1] [CustomerServiceClient#getCustomerDetails(int,String)]: [{"timeStamp":"29-07-2022 07:23:37","message":"Customer Not Found!"}]

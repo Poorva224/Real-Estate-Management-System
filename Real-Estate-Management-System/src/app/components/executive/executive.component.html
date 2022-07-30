@@ -1,0 +1,70 @@
+<div class="a">Executive</div>
+<div class="row pt-4">
+    <div class="col-md-4 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Get Executive Details</h3>
+            </div>
+            <div class="card-body">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="">Executive Id</label>
+                        <input [(ngModel)]="execid" placeholder="Enter ExecutiveId" name="execid" class="form-control rounded-0" required >
+                    </div>
+                    <button (click)="getExecutiveDetails()" type="button" class="btn btn-primary float-right">Get</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Get Customer Details</h3>
+            </div>
+            <div class="card-body">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="">Customer Id</label>
+                        <input [(ngModel)]="custid" placeholder="Enter CustomerId" name="custid" class="form-control rounded-0" required >
+                    </div>
+                    <button (click)="getCustomersById()" type="button" class="btn btn-primary float-right">Get</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row pt-4">
+    <div class="col-md-4 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Executive Details</h3>
+            </div>
+            <ul class="list-group list-group-flush" *ngIf="executive">
+            <li class="list-group-item">{{executive.name}}</li>
+            <li class="list-group-item">{{executive.contactNumber}}</li>
+            <li class="list-group-item">{{executive.locality}}</li>
+            <li class="list-group-item">{{executive.emailId}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-4 mx auto">
+        <div class="card rounded-0">
+            <div class="card-header">
+                <h3 class="md-0">Customer Details</h3>
+            </div>
+            <ul class="list-group list-group-flush" *ngIf="customer">
+            <li class="list-group-item">{{customer.name}}</li>
+            <li class="list-group-item">{{customer.address}}</li>
+            <li class="list-group-item">{{customer.emailid}}</li>
+            <li class="list-group-item">{{customer.contactNumber}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
